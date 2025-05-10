@@ -11,4 +11,12 @@ Scripts for genome assembly, assessment, and differentiatonal expression analysi
 ### 3. _de novo_ assembly:  
 - Flye
 
+### 4. Assembly assessment:  
+- Quast
 
+### 5. Polishing:  
+- Racon
+- Medaka
+
+### 6. Genome completeness assessment:  
+- BUSCO  
