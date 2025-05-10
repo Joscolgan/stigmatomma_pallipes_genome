@@ -3,8 +3,8 @@ Scripts for genome assembly, assessment, and differentiatonal expression analysi
 
 ## Steps in the analysis  
 ### 1. Quality assessment of raw sequences:  
-- NanoPlot  
-
+- [_NanoPlot_](https://github.com/wdecoster/NanoPlot)     
+-- For running NanoPlot
 ### 2. Filtering of low quality reads:  
 - Chopper
 
