@@ -5,14 +5,10 @@ Scripts for genome assembly, assessment, and differentiatonal expression analysi
 ### 1. Quality assessment of raw sequences:  
 - [NanoPlot](https://github.com/wdecoster/NanoPlot)  
 For running NanoPlot, best option for running on MOGON-nhr is to install locally used:  
-`pip install --user NanoPlot'  
-
-Within a bash script, the path to the executable can be provided (e.g., ~/.local/bin/NanoPlot).    
-
-Within the present repository, the script _run_NanoPlot.sh_ runs NanoPlot, taking the argument of input from the command line.  
-
-Here, the command takes the input, which is a compressed or uncompressed FASTQ file of either the raw or filtered FASTQ data.  
-
+`pip install --user NanoPlot'
+Within a bash script, the path to the executable can be provided (e.g., ~/.local/bin/NanoPlot).
+Within the present repository, the script _run_NanoPlot.sh_ runs NanoPlot, taking the argument of input from the command line.
+Here, the command takes the input, which is a compressed or uncompressed FASTQ file of either the raw or filtered FASTQ data.
 The script can be submitted on MOGON using the following command:  
 `sbatch run_nanoplot.sh <path_to_fastq_data>`  
 
