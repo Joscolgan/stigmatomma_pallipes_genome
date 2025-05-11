@@ -17,7 +17,7 @@ The script can be submitted on MOGON using the following command:
 Chopper allows for the removal of reads with an average minimum quality score of 10.
 For running Chopper, easiest is to run within a singularity container, which allows for creating local environments with
 packages that may not be globally installed.  
-It can be calculated using the following commmand (at least on MOGON2):
+It can be calculated using the following commmand (at least on MOGON2):  
 `module load tools/Singularity/3.9.1`  
 `singularity pull library://ubuntu:22.04`  
 `singularity shell ubuntu_22.04.sif`  
