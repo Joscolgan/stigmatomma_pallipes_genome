@@ -13,7 +13,7 @@ The script can be submitted on MOGON using the following command:
 `sbatch run_nanoplot.sh <path_to_fastq_data>`  
 
 ### 2. Filtering of low quality reads:  
-- [Chopper](https://github.com/wdecoster/chopper)
+- [Chopper](https://github.com/wdecoster/chopper)  
 Chopper allows for the removal of reads with an average minimum quality score of 10.
 For running Chopper, easiest is to run within a singularity container, which allows for creating local environments with
 packages that may not be globally installed.  
