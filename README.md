@@ -24,7 +24,8 @@ It can be calculated using the following commmand (at least on MOGON2):
 `./src/chopper-linux --input "$INPUT"  --quality 10 | gzip -c > "$OUTPUT"`
 
 ### 3. _de novo_ assembly:  
-- Flye
+- [Flye](https://github.com/mikolmogorov/Flye)  
+`/cluster/easybuild/broadwell/software/Flye/2.9.1-GCC-11.2.0/bin/flye --nano-hq input/Colgan_Stigmatomma_pallipes_2024_07_08_SUP_filt_q10.fastq.gz -m 1000 --iterations 2 -t 30 --out-dir hq_filt_1000`  
 
 ### 4. Assembly assessment:  
 - Quast
