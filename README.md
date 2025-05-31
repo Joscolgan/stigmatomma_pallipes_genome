@@ -20,7 +20,8 @@ packages that may not be globally installed.
 It can be calculated using the following commmand (at least on MOGON2):  
 `module load tools/Singularity/3.9.1`  
 `singularity pull library://ubuntu:22.04`  
-`singularity shell ubuntu_22.04.sif`  
+`singularity shell ubuntu_22.04.sif`
+`./src/chopper-linux --input "$INPUT"  --quality 10 | gzip -c > "$OUTPUT"`
 
 ### 3. _de novo_ assembly:  
 - Flye
