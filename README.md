@@ -45,5 +45,5 @@ Three founds of Racon, which involves a combination of mapping reads back using 
                   -m r1041_e82_400bps_sup_v5.0.0`  
 
 ### 6. Genome completeness assessment:  
-- (BUSCO)[https://busco.ezlab.org/]  
+- [BUSCO](https://busco.ezlab.org/)  
 `busco --offline -c 20 -i "$INPUT" -l "$DATABASE" -m genome -o "$OUTPUT" -f`
