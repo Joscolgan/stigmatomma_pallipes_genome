@@ -36,7 +36,7 @@ Three founds of Racon, which involves a combination of mapping reads back using 
 - [Racon](https://github.com/isovic/racon)  
 `sbatch run_racon.sh input/Colgan_Stigmatomma_pallipes_2024_07_08_SUP_filt_q10.fastq.gz results/minimap2_assembly_filt.paf data/hq_filt_1000/assembly.fasta`  
 
-- [Medaka](https://github.com/nanoporetech/medaka)
+- [Medaka](https://github.com/nanoporetech/medaka)  
 `~/.local/bin/medaka_consensus -i "$FASTQ" \
                   -d "$INPUT" \
                   -o results/medaka_output \
