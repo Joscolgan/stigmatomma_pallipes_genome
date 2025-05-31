@@ -28,7 +28,7 @@ It can be calculated using the following commmand (at least on MOGON2):
 `/cluster/easybuild/broadwell/software/Flye/2.9.1-GCC-11.2.0/bin/flye --nano-hq input/Colgan_Stigmatomma_pallipes_2024_07_08_SUP_filt_q10.fastq.gz -m 1000 --iterations 2 -t 30 --out-dir hq_filt_1000`  
 
 ### 4. Assembly assessment:  
-- [Quast](https://github.com/ablab/quast)
+- [Quast](https://github.com/ablab/quast)  
 `src/quast-5.3.0/quast.py -o quast_output -t 10 --min-contig 500 "$INPUT"`  
 
 ### 5. Polishing:  
