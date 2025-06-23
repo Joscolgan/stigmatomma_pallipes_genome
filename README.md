@@ -47,3 +47,11 @@ Three founds of Racon, which involves a combination of mapping reads back using 
 ### 6. Genome completeness assessment:  
 - [BUSCO](https://busco.ezlab.org/)  
 `busco --offline -c 20 -i "$INPUT" -l "$DATABASE" -m genome -o "$OUTPUT" -f`
+
+### 7. Repeat masking:  
+- [Repeatmodeler](https://www.repeatmasker.org/) to construct a set of possible repeats.  
+- [Repeatmasker](https://www.repeatmasker.org/) to soft mask.  
+
+### 8. Contig filtering:  
+Samtools coverage was used to estimate coverage per scaffold.  
+Using mean mapping quality (less than 30), contigs were removed from the final assembly.  
