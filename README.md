@@ -1,5 +1,5 @@
 # _Stigmatomma_ RNA-seq
-Scripts for genome assembly, assessment, and differentiatonal expression analysis  
+Scripts for genome assembly, assessment, and annotation
 
 ## Steps in the analysis  
 ### 1. Quality assessment of raw sequences:  
@@ -55,10 +55,4 @@ Three founds of Racon, which involves a combination of mapping reads back using 
 ### 8. Contig filtering:  
 Samtools coverage was used to estimate coverage per scaffold.  
 Using mean mapping quality (less than 30), contigs were removed from the final assembly.  
-
-## 9. Braker3-based annotation:  
-
-
-## 10. Comparative genomics:  
-To determine homologues for genes found in the _Stigmatomma_ genome assembly, we performed an [orthofinder]()-based analysis.  
 
