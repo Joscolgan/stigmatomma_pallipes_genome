@@ -1,0 +1,6 @@
+sbatch run_busco.sh input/consensus.fasta insecta_odb10 results
+sbatch run_busco.sh input/consensus.fasta hymenoptera_odb10 results
+sbatch run_busco.sh input/raw_assembly.fasta insecta_odb10 raw_insecta_busco
+sbatch run_busco.sh input/raw_assembly.fasta hymenoptera_odb10 raw_hymenoptera_busco
+sbatch run_busco.sh input/racon_polished_assembly_r1.fasta insecta_odb10 racon_r1_insecta
+sbatch run_busco.sh input/racon_polished_assembly_r1.fasta hymenoptera_odb10 racon_r1_hymenoptera
