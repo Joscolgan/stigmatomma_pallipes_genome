@@ -1,0 +1,1 @@
+sbatch run_racon.sh input/Colgan_Stigmatomma_pallipes_2024_07_08_SUP_filt_q10.fastq.gz results/minimap2_assembly_filt.paf data/hq_filt_1000/assembly.fasta 
