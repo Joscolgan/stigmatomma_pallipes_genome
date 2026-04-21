@@ -10,7 +10,7 @@ Scripts for genome assembly, assessment, and annotation
 
 ### 3. _de novo_ assembly:  
 - [Flye](https://github.com/mikolmogorov/Flye)
-- 
+
 ### 4. Assembly assessment:  
 - [Quast](https://github.com/ablab/quast)  
 
