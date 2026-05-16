@@ -3,7 +3,7 @@
 
 This repository contains scripts related to the assessment and assembly of ONT reads for the ant _Stigmatomma pallipes_. Findings of the analysis are reported in the following manuscript:
 
-MF Bolder, JS Möllmann, TJ Colgan, R Libbrecht. (Unmated queens show worker-like behaviour and gene expression in polygynous colonies of the ant _Stigmatomma pallipes_)[https://doi.org/10.1111/mec.70360].  
+MF Bolder, JS Möllmann, TJ Colgan, R Libbrecht. (Unmated queens show worker-like behaviour and gene expression in polygynous colonies of the ant _Stigmatomma pallipes_)[https://doi.org/10.1111/mec.70360]
 
 ## Steps in the analysis  
 ### 1. Quality assessment of raw sequences:  
